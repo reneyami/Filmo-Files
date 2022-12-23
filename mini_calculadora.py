@@ -3,7 +3,7 @@ try:
     a1 = int(input("introduce un primer número: "))
     a2 = int(input("introduce un segundo número: "))
 
-    eleccion = int(input("que quieres hacer?\n1.-suma\n2.-resta\n.-division\n"))
+    eleccion = int(input("que quieres hacer?\n1.-suma\n2.-resta\n3.-division\n"))
 
     if eleccion == 1:
         a3 = a1 + a2
