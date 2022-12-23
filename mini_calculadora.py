@@ -19,4 +19,6 @@ try:
 except ZeroDivisionError:
         result = 0
         print(f"el resultado es: {result}")
+except:
+    print(f"no debes usar letras, sino números")
         
