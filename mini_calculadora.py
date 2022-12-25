@@ -1,5 +1,5 @@
 print("Programa")
-def calculadora(eleccion):
+def calculadora():
     try:
         a1 = int(input("introduce un primer número: "))
         a2 = int(input("introduce un segundo número: "))
@@ -23,3 +23,4 @@ def calculadora(eleccion):
     except:
         print(f"no debes usar letras, sino números")
 
+calculadora()
